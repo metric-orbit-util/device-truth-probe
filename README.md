@@ -15,9 +15,13 @@ Runs on GitHub Actions macOS runners (free tier, public repo) and collects brows
 ## How to use
 
 1. Fork or clone this repo
-2. Create a Classic PAT with `public_repo` + `workflow`
-3. Add the token as a repo secret named `TRUTH_TOKEN`
-4. Trigger via `repository_dispatch` event `truth-probe` or manual dispatch
+2. The active workflow lives at `.github/workflows/probe.yml`
+3. Trigger via `repository_dispatch`:
+   ```
+   POST /repos/{owner}/{repo}/dispatches
+   { "event_type": "truth-probe", "client_payload": { "lane": "macos", "sample": "t<ts>-macos" } }
+   ```
+4. Samples are committed to branch `samples-<lane>` under `samples/`
 
 ## Label
 
