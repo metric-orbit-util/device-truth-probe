@@ -45,7 +45,8 @@ function closeCollector(server) {
 function collectPosts(server, timeoutMs, need) {
   return new Promise((resolve) => {
     const samples = [];
-    const probeHtml = fs.readFileSync(path.join(__dirname, 'probe.html'), 'utf8');
+    const probeHtml = fs.readFileSync(path.join(__dirname, 'probe.html'), 'utf8')
+      .replace(/%COLLECT_URL%/g, 'http://127.0.0.1:' + PORT + '/collect');
     const timer = setTimeout(() => { closeCollector(server); resolve(samples); }, timeoutMs);
     server.on('request', (req, res) => {
       if (req.method === 'GET' && isProbePath(req.url)) {
@@ -80,7 +81,8 @@ async function wdPost(base, pathPart, body) {
 async function runMacOS() {
   const wdPort = PORT + 1;
   log('macOS lane: safaridriver WebDriver on :' + wdPort);
-  const probeHtml = fs.readFileSync(path.join(__dirname, 'probe.html'), 'utf8');
+  const probeHtml = fs.readFileSync(path.join(__dirname, 'probe.html'), 'utf8')
+    .replace(/%COLLECT_URL%/g, '');
   const page = http.createServer((req, res) => {
     if (req.method === 'GET' && isProbePath(req.url)) {
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
@@ -121,7 +123,10 @@ async function runMacOS() {
     try {
       // Prime the transport measurements with real Safari TLS/HTTP sessions.
       for (const tu of [TRAP_HELLO_URL, TRAP_H2_URL, TRAP_H1_URL]) {
-        try { await wdPost(base, '/session/' + sid + '/url', { url: tu }); } catch (_) {}
+        try {
+          await wdPost(base, '/session/' + sid + '/url', { url: tu });
+          log('trap nav ok: ' + tu.slice(0, 24) + ' (sample ' + (i + 1) + ')');
+        } catch (e) { log('trap nav fail: ' + tu.slice(0, 24) + ' ' + e.message); }
         await new Promise((r) => setTimeout(r, 1200));
       }
       await wdPost(base, '/session/' + sid + '/url', { url: URL_BASE + '/probe?exp=' + trap.ports.export });
