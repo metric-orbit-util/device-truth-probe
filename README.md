@@ -8,9 +8,16 @@ Runs on GitHub Actions macOS runners (free tier, public repo) and collects brows
 - **macOS Safari** (real Apple Silicon)
 - **iOS Simulator** (real iOS runtime via simctl)
 
+Every sample optionally carries measured transport evidence captured by `tls-trap.js`
+(`samples[i].transport`): the raw TLS ClientHello digest (`tls`), the HTTP/2
+SETTINGS/frame sequence (`http2`), and the HTTP/1.1 header order (`http1`). The trap
+suite (hello-sniffer + Node TLS sessions + export server) listens on
+`TRUTH_PORT+10 … TRUTH_PORT+13`; its self-signed root is installed into the macOS
+System keychain with `security add-trusted-cert` so real Safari completes TLS.
+
 ## Fields collected
 
-`uuid`, `lane`, `model`, `os`, `browser`, `ua`, `platform`, `screen`, `viewport`, `hw`, `webgl`, `fonts`, `timeline`, `webkit`, `harvestedAt`
+`uuid`, `lane`, `model`, `os`, `browser`, `ua`, `platform`, `screen`, `viewport`, `hw`, `webgl`, `fonts`, `timeline`, `webkit`, `harvestedAt`, plus optional `transport.tls`, `transport.http2`, `transport.http1`.
 
 ## How to use
 
