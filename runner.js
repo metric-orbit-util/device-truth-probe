@@ -119,8 +119,8 @@ async function main() {
   else { log('unknown lane: ' + LANE); process.exit(1); }
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  const runId = 't' + Date.now();
-  const outFile = path.join(OUT_DIR, runId + '-' + LANE + '.json');
+  const runId = process.env.TRUTH_RUN || ('t' + Date.now() + '-' + LANE);
+  const outFile = path.join(OUT_DIR, runId + '.json');
   fs.writeFileSync(outFile, JSON.stringify(samples, null, 2));
   log('wrote ' + samples.length + ' samples to ' + outFile);
   console.log(JSON.stringify({ lane: LANE, runId, samples: samples.length, file: outFile }));
