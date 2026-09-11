@@ -64,6 +64,25 @@ async function wdPost(base, pathPart, body) {
 async function runMacOS() {
   const wdPort = PORT + 1;
   log('macOS lane: safaridriver WebDriver on :' + wdPort);
+  const probeHtml = fs.readFileSync(path.join(__dirname, 'probe.html'), 'utf8');
+  const page = http.createServer((req, res) => {
+    if (req.method === 'GET' && req.url === '/probe') {
+      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end(probeHtml);
+    } else if (req.method === 'POST' && req.url === '/collect') {
+      let body = '';
+      req.on('data', (c) => { body += c; });
+      req.on('end', () => {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end('{"ok":true}');
+      });
+    } else {
+      res.writeHead(404);
+      res.end();
+    }
+  });
+  await new Promise((resolve) => page.listen(PORT, '127.0.0.1', resolve));
+  log('probe page serving on 127.0.0.1:' + PORT);
   try { execSync('sudo safaridriver --enable', { stdio: 'ignore', timeout: 20000 }); } catch (e) { log('safaridriver --enable: ' + e.message); }
   let srv;
   try { srv = spawn('safaridriver', ['-p', String(wdPort)], { stdio: 'ignore' }); } catch (e) { log('spawn safaridriver: ' + e.message); return []; }
@@ -90,6 +109,7 @@ async function runMacOS() {
   }
   try { await fetch(base + '/session/' + sid, { method: 'DELETE' }); } catch (_) {}
   if (srv) srv.kill();
+  try { page.close(); } catch (_) {}
   return samples;
 }
 
