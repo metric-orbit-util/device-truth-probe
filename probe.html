@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Device Truth Probe</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; }
+    h1 { font-size: 1.3em; }
+    #result { white-space: pre-wrap; font-family: monospace; font-size: 0.85em; background: #f5f5f5; padding: 1em; border-radius: 6px; overflow-x: auto; }
+    .ok { color: #2a7; } .err { color: #c33; }
+  </style>
+</head>
+<body>
+  <h1>Device Truth Probe — hosted-truth sample</h1>
+  <p>Collects a deterministic fingerprint from the current browser runtime. No cookies, no storage, no network until you submit.</p>
+  <div id="status">Collecting…</div>
+  <pre id="result"></pre>
+
+  <script>
+  (function() {
+    var status = document.getElementById('status');
+    var result = document.getElementById('result');
+
+    function getWebGL() {
+      try {
+        var canvas = document.createElement('canvas');
+        var gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+        if (!gl) return { renderer: '', vendor: '' };
+        var dbg = gl.getExtension('WEBGL_debug_renderer_info');
+        return {
+          renderer: dbg ? gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER),
+          vendor: dbg ? gl.getParameter(dbg.UNMASKED_VENDOR_WEBGL) : gl.getParameter(gl.VENDOR)
+        };
+      } catch(e) { return { renderer: '', vendor: '' }; }
+    }
+
+    function getFonts() {
+      var base = ['Arial','Helvetica','Times New Roman','Courier New','Georgia','Verdana','Impact','Comic Sans MS','Trebuchet MS','Palatino'];
+      var found = [];
+      var test = document.createElement('span');
+      test.style.position = 'absolute';
+      test.style.left = '-9999px';
+      test.style.fontSize = '72px';
+      test.innerHTML = 'mmmmmmmmmmlli';
+      document.body.appendChild(test);
+      var baseW = test.offsetWidth;
+      for (var i = 0; i < base.length; i++) {
+        test.style.fontFamily = "'" + base[i] + "', monospace";
+        if (test.offsetWidth !== baseW) found.push(base[i]);
+      }
+      document.body.removeChild(test);
+      return found;
+    }
+
+    function measureCanvas() {
+      try {
+        var c = document.createElement('canvas');
+        c.width = 200; c.height = 50;
+        var ctx = c.getContext('2d');
+        ctx.textBaseline = 'top';
+        ctx.font = '14px Arial';
+        ctx.fillStyle = '#f60';
+        ctx.fillRect(125, 1, 62, 20);
+        ctx.fillStyle = '#069';
+        ctx.fillText('Device Truth', 2, 15);
+        return ctx.getImageData(0, 0, 200, 50).data.length;
+      } catch(e) { return 0; }
+    }
+
+    function measureWebGL() {
+      try {
+        var c = document.createElement('canvas');
+        c.width = 50; c.height = 50;
+        var gl = c.getContext('webgl') || c.getContext('experimental-webgl');
+        if (!gl) return 0;
+        var start = performance.now();
+        for (var i = 0; i < 10; i++) {
+          gl.clearColor(0.1, 0.2, 0.3, 1.0);
+          gl.clear(gl.COLOR_BUFFER_BIT);
+        }
+        return Math.round((performance.now() - start) * 100) / 100;
+      } catch(e) { return 0; }
+    }
+
+    var isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    var webgl = getWebGL();
+    var sample = {
+      uuid: crypto.randomUUID ? crypto.randomUUID() : ('xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) { var r = Math.random()*16|0; return (c==='x'?r:(r&0x3|0x8)).toString(16); })),
+      lane: (function() { var ua = navigator.userAgent; if (/iPhone|iPad/.test(ua)) return 'ios'; if (/Mac/.test(ua)) return 'macos'; return 'unknown'; })(),
+      model: (function() {
+        var ua = navigator.userAgent;
+        if (/iPhone/.test(ua)) return 'iPhone';
+        if (/iPad/.test(ua)) return 'iPad';
+        if (/Mac/.test(ua)) {
+          var cores = navigator.hardwareConcurrency || 0;
+          if (cores >= 12) return 'MacBook-Pro';
+          if (cores >= 8) return 'MacBook-Air';
+          return 'Mac-mini';
+        }
+        return 'unknown';
+      })(),
+      os: (function() {
+        var ua = navigator.userAgent;
+        var m = ua.match(/(iPhone|iPad) OS (\d+[_\d]+)/);
+        if (m) return 'iOS ' + m[2].replace(/_/g, '.');
+        m = ua.match(/Mac OS X (\d+[._\d]+)/);
+        if (m) return 'macOS ' + m[1].replace(/_/g, '.');
+        return ua;
+      })(),
+      browser: 'Safari',
+      ua: navigator.userAgent,
+      platform: navigator.platform,
+      screen: { w: screen.width, h: screen.height, dpr: window.devicePixelRatio || 1 },
+      viewport: { w: window.innerWidth, h: window.innerHeight },
+      hw: {
+        cores: navigator.hardwareConcurrency || 0,
+        memGb: navigator.deviceMemory || 0,
+        touch: isTouchDevice
+      },
+      webgl: webgl,
+      fonts: getFonts(),
+      timeline: { canvas: measureCanvas(), webgl: measureWebGL() },
+      webkit: {
+        applePay: typeof window.ApplePaySession !== 'undefined',
+        standalone: navigator.standalone === true,
+        orientation: screen.orientation ? screen.orientation.type : 'unknown'
+      },
+      harvestedAt: new Date().toISOString()
+    };
+
+    status.textContent = 'Collection complete. ' + sample.fonts.length + ' fonts detected.';
+    status.className = 'ok';
+    result.textContent = JSON.stringify(sample, null, 2);
+
+    // Post back to the collector if present
+    if (window.__COLLECT_URL__) {
+      fetch(window.__COLLECT_URL__, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(sample)
+      }).then(function(r) {
+        status.textContent = 'Submitted: ' + r.status;
+      }).catch(function(e) {
+        status.textContent = 'Submit failed (offline mode): ' + e.message;
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
