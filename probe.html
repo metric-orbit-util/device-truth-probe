@@ -128,22 +128,37 @@
       harvestedAt: new Date().toISOString()
     };
 
-    status.textContent = 'Collection complete. ' + sample.fonts.length + ' fonts detected.';
-    status.className = 'ok';
-    result.textContent = JSON.stringify(sample, null, 2);
-    window.__TRUTH_SAMPLE__ = sample;
-
-    // Post back to the collector if present
-    if (window.__COLLECT_URL__) {
+    function post(s) {
+      if (!window.__COLLECT_URL__) return;
       fetch(window.__COLLECT_URL__, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(sample)
+        body: JSON.stringify(s)
       }).then(function(r) {
         status.textContent = 'Submitted: ' + r.status;
       }).catch(function(e) {
         status.textContent = 'Submit failed (offline mode): ' + e.message;
       });
+    }
+
+    function finish(s) {
+      status.textContent = 'Collection complete. ' + s.fonts.length + ' fonts detected.';
+      status.className = 'ok';
+      result.textContent = JSON.stringify(s, null, 2);
+      window.__TRUTH_SAMPLE__ = s;
+      post(s);
+    }
+
+    // Optional transport measure: the trap export merges measured tls/h2/h1.
+    var expMatch = location.search.match(/[?&]exp=(\d+)/);
+    if (expMatch) {
+      fetch('http://127.0.0.1:' + expMatch[1] + '/capture').then(function(r) { return r.json(); }).then(function(cap) {
+        sample.transport = { tls: (cap && cap.tls) || null, http2: (cap && cap.http2) || null, http1: (cap && cap.http1) || null, via: 'trap-suite' };
+        if (sample.transport.tls) status.textContent = 'Transport captured (tlsSig ' + sample.transport.tls.tlsSig.slice(0, 12) + ')...';
+        finish(sample);
+      }).catch(function() { finish(sample); });
+    } else {
+      finish(sample);
     }
   })();
   </script>
