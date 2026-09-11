@@ -1,0 +1,38 @@
+name: Device Truth Probe
+on:
+  repository_dispatch:
+    types: [truth-probe]
+
+permissions:
+  contents: write
+
+jobs:
+  measure:
+    runs-on: macos-latest
+    env:
+      TRUTH_LANE: ${{ github.event.client_payload.lane }}
+      TRUTH_RUN: ${{ github.event.client_payload.sample }}
+      TRUTH_BURST: '6'
+      TRUTH_PORT: '8234'
+      TRUTH_OUT: 'samples'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run probe
+        run: node runner.js
+
+      - name: Commit samples
+        run: |
+          git config user.name "truth-bot"
+          git config user.email "truth-bot@users.noreply.github.com"
+          git checkout -b samples-${{ env.TRUTH_LANE }} 2>/dev/null || git checkout samples-${{ env.TRUTH_LANE }}
+          git add samples/
+          git diff --cached --quiet && echo "no-new-samples" && exit 0
+          git commit -m "truth: ${{ env.TRUTH_LANE }} ${{ github.run_id }} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin samples-${{ env.TRUTH_LANE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
