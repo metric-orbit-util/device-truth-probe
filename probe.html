@@ -131,6 +131,7 @@
     status.textContent = 'Collection complete. ' + sample.fonts.length + ' fonts detected.';
     status.className = 'ok';
     result.textContent = JSON.stringify(sample, null, 2);
+    window.__TRUTH_SAMPLE__ = sample;
 
     // Post back to the collector if present
     if (window.__COLLECT_URL__) {
