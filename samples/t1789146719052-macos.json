@@ -1,0 +1,492 @@
+[
+  {
+    "uuid": "eb0c25b1-6fcd-4e5f-8e88-00f45ca50df3",
+    "harvestedAt": "2026-09-11T17:12:22.467Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "76921f9d-2e54-482e-9a59-82f4e1f28704",
+    "harvestedAt": "2026-09-11T17:12:26.020Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "0cab73bc-a3af-45a8-8453-367c3959001e",
+    "harvestedAt": "2026-09-11T17:12:29.559Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "d3a78438-f3a6-4008-ba0c-a834d1cf5ba4",
+    "harvestedAt": "2026-09-11T17:12:33.117Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "3a6ff48b-605d-479e-9fb8-4cafc432e7e8",
+    "harvestedAt": "2026-09-11T17:12:36.658Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "f029681c-40f8-4890-9efa-462e56e1a717",
+    "harvestedAt": "2026-09-11T17:12:40.209Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "11213fd9-04a0-4d08-9175-2e65eb1d073f",
+    "harvestedAt": "2026-09-11T17:12:43.763Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "093c7399-43dd-46ea-ba0f-87a748e05788",
+    "harvestedAt": "2026-09-11T17:12:47.303Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "e7a43819-1429-4970-975d-d31b20ddbab7",
+    "harvestedAt": "2026-09-11T17:12:50.845Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "4e296aaa-4535-4698-b579-1c50703f046d",
+    "harvestedAt": "2026-09-11T17:12:54.386Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  }
+]
