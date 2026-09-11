@@ -1,0 +1,2607 @@
+[
+  {
+    "uuid": "61c143e8-b736-4513-95d2-37df48a2fa4c",
+    "harvestedAt": "2026-09-11T20:58:38.739Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:58:31.682Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Referer",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "image"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*"
+          },
+          {
+            "name": "Referer",
+            "value": "https://127.0.0.1:8246/"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "same-origin"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "no-cors"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=3, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:58:33.125Z",
+        "requestLine": "GET /favicon.ico HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:58:28.612Z",
+        "greaseCiphers": [
+          "caca"
+        ],
+        "greaseExts": [
+          "1a1a",
+          "6a6a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "caca",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "caca",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "1a1a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "6a6a"
+        ],
+        "etm": false,
+        "groups": [
+          "8a8a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "07b288972efa47efbac1af86"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "d2524032-ff69-4593-8033-a1faaa164835",
+    "harvestedAt": "2026-09-11T20:58:46.256Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:58:40.104Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:58:41.349Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:dada,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "dada,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:58:38.784Z",
+        "greaseCiphers": [
+          "dada"
+        ],
+        "greaseExts": [
+          "aaaa",
+          "3a3a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "dada",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "eaea",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "aaaa",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "3a3a"
+        ],
+        "etm": false,
+        "groups": [
+          "5a5a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "ae6638e24d407d465e0062e7"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "21185453-a6ee-4079-9114-276999e68134",
+    "harvestedAt": "2026-09-11T20:58:53.649Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:58:47.554Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:58:48.790Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:4a4a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "4a4a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:58:46.302Z",
+        "greaseCiphers": [
+          "4a4a"
+        ],
+        "greaseExts": [
+          "7a7a",
+          "6a6a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "4a4a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "6a6a",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "7a7a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "6a6a"
+        ],
+        "etm": false,
+        "groups": [
+          "aaaa",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "b01e6dd02a0ea01691be94da"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "ff3cc8f6-b2eb-448f-86ad-68225c8f2116",
+    "harvestedAt": "2026-09-11T20:59:00.929Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:58:54.924Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:58:56.148Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:baba,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "baba,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:58:53.678Z",
+        "greaseCiphers": [
+          "baba"
+        ],
+        "greaseExts": [
+          "8a8a",
+          "6a6a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "baba",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "1a1a",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "8a8a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "6a6a"
+        ],
+        "etm": false,
+        "groups": [
+          "5a5a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "cb17161751163db26e6df5a3"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "1f188c8d-1836-4885-9bfd-66da839c9df2",
+    "harvestedAt": "2026-09-11T20:59:08.241Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:59:02.197Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:59:03.420Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:5a5a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "5a5a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:59:00.957Z",
+        "greaseCiphers": [
+          "5a5a"
+        ],
+        "greaseExts": [
+          "dada",
+          "8a8a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "5a5a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "6a6a",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "dada",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "8a8a"
+        ],
+        "etm": false,
+        "groups": [
+          "dada",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "7a918f2e0fc2e49b49aaba7a"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "9700acfe-b2b9-4afc-b79f-bfcb6cfce651",
+    "harvestedAt": "2026-09-11T20:59:15.642Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:59:09.562Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:59:10.815Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:59:08.279Z",
+        "greaseCiphers": [
+          "caca"
+        ],
+        "greaseExts": [
+          "eaea",
+          "fafa"
+        ],
+        "sni": [],
+        "ciphers": [
+          "caca",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "caca",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "eaea",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "fafa"
+        ],
+        "etm": false,
+        "groups": [
+          "caca",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "9a67e9745e2e624bfe6ba8b8"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "a2ce9d66-9b86-4c37-bd1f-c3e2af93fa3b",
+    "harvestedAt": "2026-09-11T20:59:22.988Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:59:16.940Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:59:18.163Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:fafa,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "fafa,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:59:15.690Z",
+        "greaseCiphers": [
+          "fafa"
+        ],
+        "greaseExts": [
+          "1a1a",
+          "0a0a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "fafa",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "eaea",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "1a1a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "0a0a"
+        ],
+        "etm": false,
+        "groups": [
+          "caca",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "7d081780f65157242dee1d2a"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "4b55483f-9149-46da-8632-3aa8e14473e3",
+    "harvestedAt": "2026-09-11T20:59:30.377Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:59:24.282Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:59:25.516Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:6a6a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "6a6a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:59:23.029Z",
+        "greaseCiphers": [
+          "6a6a"
+        ],
+        "greaseExts": [
+          "3a3a",
+          "dada"
+        ],
+        "sni": [],
+        "ciphers": [
+          "6a6a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "baba",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "3a3a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "dada"
+        ],
+        "etm": false,
+        "groups": [
+          "caca",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "861bdcd82737db7d6858b564"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "f211b683-441b-40f6-bfd9-ad20190c2f07",
+    "harvestedAt": "2026-09-11T20:59:37.823Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:59:31.755Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:59:32.977Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:59:30.487Z",
+        "greaseCiphers": [
+          "caca"
+        ],
+        "greaseExts": [
+          "eaea",
+          "2a2a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "caca",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "4a4a",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "eaea",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "2a2a"
+        ],
+        "etm": false,
+        "groups": [
+          "0a0a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "557c9a0a19a3525a05d2b235"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  },
+  {
+    "uuid": "4cfe8d8a-047a-41ee-bfd8-40b2fd885ee7",
+    "harvestedAt": "2026-09-11T20:59:45.197Z",
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU"
+    },
+    "lane": "macos",
+    "screen": {
+      "w": 1024,
+      "h": 768,
+      "dpr": 1
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": false
+    },
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "viewport": {
+      "w": 1024,
+      "h": 674
+    },
+    "os": "macOS 10.15.7",
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "browser": "Safari",
+    "platform": "MacIntel",
+    "webkit": {
+      "standalone": false,
+      "applePay": true,
+      "orientation": "landscape-primary"
+    },
+    "transport": {
+      "http2": {
+        "frames": [
+          {
+            "flags": 0,
+            "len": 24,
+            "type": "SETTINGS",
+            "stream": 0
+          },
+          {
+            "flags": 0,
+            "len": 4,
+            "type": "WINDOW_UPDATE",
+            "stream": 0
+          },
+          {
+            "flags": 5,
+            "len": 258,
+            "type": "HEADERS",
+            "stream": 1
+          }
+        ],
+        "settingsAck": false,
+        "firstHeaders": {
+          "stream": 1,
+          "len": 258,
+          "prefix24": "8287418a089d5c0b8170dc784d3784408a4148b4a549275a"
+        },
+        "via": "tls-session",
+        "preface": true,
+        "negotiated": "h2",
+        "capturedAt": "2026-09-11T20:59:39.111Z",
+        "settings": [
+          {
+            "id": 2,
+            "val": 0
+          },
+          {
+            "id": 3,
+            "val": 100
+          },
+          {
+            "id": 4,
+            "val": 2097152
+          },
+          {
+            "id": 9,
+            "val": 1
+          }
+        ],
+        "windowUpdates": [
+          10420225
+        ]
+      },
+      "http1": {
+        "ok": true,
+        "order": [
+          "Host",
+          "Sec-Fetch-Dest",
+          "User-Agent",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Accept-Language",
+          "Priority",
+          "Accept-Encoding",
+          "Connection"
+        ],
+        "via": "tls-session",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "127.0.0.1:8246"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "value": "document"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "value": "none"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+          },
+          {
+            "name": "Priority",
+            "value": "u=0, i"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ],
+        "negotiated": "http/1.1",
+        "capturedAt": "2026-09-11T20:59:40.341Z",
+        "requestLine": "GET / HTTP/1.1"
+      },
+      "via": "trap-suite",
+      "tls": {
+        "ems": true,
+        "version": "13",
+        "ja4approx": {
+          "digest": "t13:8a8a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1",
+          "alpn": "h2,http/1.1",
+          "ciphers": "8a8a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "version": "13",
+          "greaseCount": 3,
+          "sigFirst": "0403",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b"
+        },
+        "via": "hello-sniffer",
+        "capturedAt": "2026-09-11T20:59:37.870Z",
+        "greaseCiphers": [
+          "8a8a"
+        ],
+        "greaseExts": [
+          "fafa",
+          "9a9a"
+        ],
+        "sni": [],
+        "ciphers": [
+          "8a8a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "renegotiation": true,
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "4a4a",
+          "0304",
+          "0303"
+        ],
+        "extOrder": [
+          "fafa",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "9a9a"
+        ],
+        "etm": false,
+        "groups": [
+          "baba",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "tlsSig": "2abf3a5a09dcc9235e93268d"
+      }
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "model": "Mac-mini"
+  }
+]
