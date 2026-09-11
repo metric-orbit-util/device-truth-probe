@@ -1,0 +1,1389 @@
+[
+  {
+    "uuid": "68393723-28db-4f1b-a415-b954bb7d3d4c",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 1
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:13:25.782Z",
+    "transport": {
+      "tls": null,
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "f75fdc4d-26b0-4c70-a5cd-e5eda82012ca",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:13:37.541Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "4db90171acbe504561939679",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "aaaa",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "3a3a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "1a1a"
+        ],
+        "groups": [
+          "3a3a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "caca",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "aaaa"
+        ],
+        "greaseExts": [
+          "3a3a",
+          "1a1a"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "aaaa,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:aaaa,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:13:31.811Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "659742e7-9269-42b5-9585-fb13b993424d",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 1
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:13:59.242Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "69eec3ff197e962f41285b83",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "0a0a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "3a3a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "caca"
+        ],
+        "groups": [
+          "7a7a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "7a7a",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "0a0a"
+        ],
+        "greaseExts": [
+          "3a3a",
+          "caca"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "0a0a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:0a0a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:13:53.799Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "68db9bde-38ed-4af8-9717-70526dec7844",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:14:10.366Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "bc8ede2f725aa3a86cf351c0",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "5a5a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "2a2a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "3a3a"
+        ],
+        "groups": [
+          "caca",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "caca",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "5a5a"
+        ],
+        "greaseExts": [
+          "2a2a",
+          "3a3a"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "5a5a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:5a5a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:14:05.642Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "d202e827-6966-4663-90e7-a873f50c4c93",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:14:21.117Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "c2805df12789816f6a6fe893",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "6a6a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "9a9a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "8a8a"
+        ],
+        "groups": [
+          "baba",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "7a7a",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "6a6a"
+        ],
+        "greaseExts": [
+          "9a9a",
+          "8a8a"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "6a6a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:6a6a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:14:16.668Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "8c668d35-b736-4fd5-b830-648886f4c433",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:14:32.336Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "20381925ff361df292ae51bc",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "caca",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "caca",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "eaea"
+        ],
+        "groups": [
+          "6a6a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "dada",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "caca"
+        ],
+        "greaseExts": [
+          "caca",
+          "eaea"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:caca,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:14:27.446Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "47ab49e5-19eb-4c71-b75c-6c7b4fc082d7",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:14:43.852Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "d83bf42ccc1d23f2044ed3ac",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "9a9a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "5a5a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "4a4a"
+        ],
+        "groups": [
+          "8a8a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "7a7a",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "9a9a"
+        ],
+        "greaseExts": [
+          "5a5a",
+          "4a4a"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "9a9a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:9a9a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:14:38.574Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "e357bcea-a236-4457-a012-872cb764d11a",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:14:55.920Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "45f6f2e0313fa3b6b361fa74",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "baba",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "3a3a",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "7a7a"
+        ],
+        "groups": [
+          "baba",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "8a8a",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "baba"
+        ],
+        "greaseExts": [
+          "3a3a",
+          "7a7a"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "baba,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:baba,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:14:50.689Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "12964519-9db0-4783-ab10-0aec7f909366",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:15:07.319Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "cf0d3008c6674eebee1e54b8",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "fafa",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "aaaa",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "8a8a"
+        ],
+        "groups": [
+          "3a3a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "4a4a",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "fafa"
+        ],
+        "greaseExts": [
+          "aaaa",
+          "8a8a"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "fafa,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:fafa,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:15:02.457Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  },
+  {
+    "uuid": "9b8d8d20-0c97-446f-aec7-1bb439fc45b9",
+    "lane": "ios",
+    "model": "iPhone",
+    "os": "iOS 18.7",
+    "browser": "Safari",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "platform": "iPhone",
+    "screen": {
+      "w": 402,
+      "h": 874,
+      "dpr": 3
+    },
+    "viewport": {
+      "w": 980,
+      "h": 1741
+    },
+    "hw": {
+      "cores": 3,
+      "memGb": 7,
+      "touch": true
+    },
+    "webgl": {
+      "renderer": "Apple GPU",
+      "vendor": "Apple Inc."
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Times New Roman",
+      "Courier New",
+      "Georgia",
+      "Verdana",
+      "Impact",
+      "Comic Sans MS",
+      "Trebuchet MS",
+      "Palatino"
+    ],
+    "timeline": {
+      "canvas": 40000,
+      "webgl": 0
+    },
+    "webkit": {
+      "applePay": true,
+      "standalone": false,
+      "orientation": "portrait-primary"
+    },
+    "harvestedAt": "2026-09-11T21:15:18.253Z",
+    "transport": {
+      "tls": {
+        "tlsSig": "a39adc74065add3baeccebf5",
+        "via": "hello-sniffer",
+        "version": "13",
+        "ciphers": [
+          "3a3a",
+          "1302",
+          "1303",
+          "1301",
+          "c02c",
+          "c02b",
+          "cca9",
+          "c030",
+          "c02f",
+          "cca8",
+          "c00a",
+          "c009",
+          "c014",
+          "c013",
+          "009d",
+          "009c",
+          "0035",
+          "002f",
+          "c008",
+          "c012",
+          "000a"
+        ],
+        "extOrder": [
+          "caca",
+          "0017",
+          "ff01",
+          "000a",
+          "000b",
+          "0010",
+          "0005",
+          "000d",
+          "0012",
+          "0033",
+          "002d",
+          "002b",
+          "001b",
+          "fafa"
+        ],
+        "groups": [
+          "5a5a",
+          "11ec",
+          "001d",
+          "0017",
+          "0018",
+          "0019"
+        ],
+        "sigAlgs": [
+          "0403",
+          "0804",
+          "0401",
+          "0503",
+          "0805",
+          "0805",
+          "0501",
+          "0806",
+          "0601",
+          "0201"
+        ],
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "versions": [
+          "7a7a",
+          "0304",
+          "0303"
+        ],
+        "sni": [],
+        "greaseCiphers": [
+          "3a3a"
+        ],
+        "greaseExts": [
+          "caca",
+          "fafa"
+        ],
+        "renegotiation": true,
+        "ems": true,
+        "etm": false,
+        "ja4approx": {
+          "version": "13",
+          "greaseCount": 3,
+          "ciphers": "3a3a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a",
+          "extensions": "0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b",
+          "sigFirst": "0403",
+          "alpn": "h2,http/1.1",
+          "digest": "t13:3a3a,1302,1303,1301,c02c,c02b,cca9,c030,c02f,cca8,c00a,c009,c014,c013,009d,009c,0035,002f,c008,c012,000a:0017,ff01,000a,000b,0010,0005,000d,0012,0033,002d,002b,001b:0403:h2,http/1.1"
+        },
+        "capturedAt": "2026-09-11T21:15:13.665Z"
+      },
+      "http2": null,
+      "http1": null,
+      "via": "trap-suite"
+    }
+  }
+]
