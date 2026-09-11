@@ -12,7 +12,7 @@ jobs:
     env:
       TRUTH_LANE: ${{ github.event.client_payload.lane }}
       TRUTH_RUN: ${{ github.event.client_payload.sample }}
-      TRUTH_BURST: '6'
+      TRUTH_BURST: '10'
       TRUTH_PORT: '8234'
       TRUTH_OUT: 'samples'
     steps:
